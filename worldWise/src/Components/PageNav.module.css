@@ -3,3 +3,11 @@
   justify-content: space-between;
   list-style: none;
 }
+
+.nav :global(.active) {
+  background-color: blue;
+}
+
+.list {
+  font-size: 2rem;
+}

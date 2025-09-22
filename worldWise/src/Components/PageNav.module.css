@@ -16,13 +16,13 @@
   text-decoration: none;
   color: var(--color-light--2);
   text-transform: uppercase;
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 600;
 }
 
 /*CSS Modules feature*/
 .nav a:global(.active) {
-  background-color: var(--color-brand--2);
+  color: var(--color-brand--2);
 }
 
 a.ctaLink:link,

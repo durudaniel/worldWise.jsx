@@ -12,13 +12,16 @@ function Product() {
 export default Product;
 */
 
+import PageNav from "../Components/PageNav";
 import styles from "./Product.module.css";
 
 export default function Product() {
   return (
     <main className={styles.product}>
+      <PageNav />
       <section>
         <img
+          className="product-img"
           src="product.JPG"
           alt="person with dog overlooking mountain with sunset"
         />

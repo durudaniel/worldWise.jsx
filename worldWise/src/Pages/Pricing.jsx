@@ -10,11 +10,13 @@ export default function Pricing() {
 }*/
 
 // Uses the same styles as Product
+import PageNav from "../Components/PageNav";
 import styles from "./Product.module.css";
 
 export default function Product() {
   return (
     <main className={styles.product}>
+      <PageNav />
       <section>
         <div>
           <h2>
@@ -28,7 +30,11 @@ export default function Product() {
             voluptatem iste.
           </p>
         </div>
-        <img src="img-2.jpg" alt="overview of a large city with skyscrapers" />
+        <img
+          className="pricing-img"
+          src="pricing.JPG"
+          alt="overview of a large city with skyscrapers"
+        />
       </section>
     </main>
   );

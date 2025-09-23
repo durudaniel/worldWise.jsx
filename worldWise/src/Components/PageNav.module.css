@@ -16,7 +16,7 @@
   text-decoration: none;
   color: var(--color-light--2);
   text-transform: uppercase;
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 600;
 }
 
@@ -26,7 +26,7 @@
 }
 
 a.ctaLink:link,
-a.ctalink:visited {
+a.ctaLink:visited {
   background-color: var(--color-brand--2);
   color: var(--color-dark--0);
   padding: 0.8rem 2rem;

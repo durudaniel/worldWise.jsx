@@ -16,7 +16,6 @@ export default function App() {
           <Route path="/pricing" element={<Pricing />}></Route>
           <Route path="/Login" element={<Login />}></Route>
           <Route path="/app" element={<AppLayout />}></Route>
-          <Route path="*" element={<PageNotFound />}></Route>
         </Routes>
       </BrowserRouter>
     </div>
